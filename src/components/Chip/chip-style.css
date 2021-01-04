@@ -1,0 +1,27 @@
+.chip {
+  background-color: rgb(220, 0, 78);
+  color: #fff;
+  margin: 15px 25px;
+  height: 32px;
+  font-size: 0.9rem;
+  vertical-align: middle;
+  justify-content: center;
+  white-space: nowrap;
+  align-items: center;
+  display: flex;
+  border-radius: 15px;
+}
+
+.chip .label {
+  margin-left: 5px;
+  margin-right: 15px;
+  text-shadow: 1px 1px 10px black;
+  font-weight: 600;
+}
+
+.chip .avatar {
+  width: 24px;
+  height: 24px;
+  font-size: 0.7rem;
+  margin-left: 15px;
+}
