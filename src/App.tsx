@@ -23,7 +23,7 @@ export default function App() {
 
       <div className="section">
         <div className="textBox">
-          <span className="title">Card:</span>
+          <span className="title">Balloon:</span>
           <Balloon />
         </div>
       </div>
