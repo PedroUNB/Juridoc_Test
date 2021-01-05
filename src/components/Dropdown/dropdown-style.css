@@ -35,4 +35,10 @@
   font-size: 1.08rem;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.09);
   cursor: pointer;
+  transition: 0.7s;
+  text-transform: uppercase;
+}
+
+.dropdown-list_item:hover {
+  background-color: rgba(0, 0, 0, 0.2);
 }

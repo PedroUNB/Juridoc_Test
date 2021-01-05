@@ -1,14 +1,18 @@
 import React from "react";
 import "./card-style.css";
 
-export function Card() {
+interface IProp {
+  image: string;
+}
+
+export function Card({ image }: IProp) {
   return (
     <div className="card">
       <div className="header">Card Header</div>
       <div
         className="media"
         style={{
-          backgroundImage: `url(${"https://ichef.bbci.co.uk/news/976/cpsprodpb/27C9/production/_103158101_tha.jpg"})`
+          backgroundImage: `url(${image})`
         }}
       />
 

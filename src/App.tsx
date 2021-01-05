@@ -18,7 +18,11 @@ export default function App() {
       <div className="section">
         <div className="textBox">
           <span className="title">Card:</span>
-          <Card />
+          <Card
+            image={
+              "https://ichef.bbci.co.uk/news/976/cpsprodpb/27C9/production/_103158101_tha.jpg"
+            }
+          />
         </div>
       </div>
 
